@@ -14,13 +14,28 @@ Buvo problema su localhost service.
 
 Sprendimas: pakeistas prievadas (port), problema išspręsta.
 
-🔜 TOLIAU / UŽDUOTYS
+📝 Dienos ataskaita: [2025-05-29]
+✅ PROGRESS / PADARYTA
 🔹 GitHub
-Sukurti naują repozitoriją projektui
 
-Susieti šią repozitoriją su SQL mokymosi projektu
+ Sukurta nauja repozitorija SQL mokymosi projektui
 
-Pridėti pirmą commit’ą su README ir struktūra
+ Susieta su vietiniu projektu
+
+ Pridėtas pirmasis commit su README.md ir struktūra
+
+🔹 MySQL
+
+ Sukurtas pirmasis duomenų bazės failas
+
+ DB sukurta ir paruošta darbui
+
+🔜 TOLIAU / PLANAS
+🔸 SQL praktika
+
+ Pradėti mokymus (Alex the Analyst)
+
+ Praktikuotis SQL komandas: SELECT/WHERE/GROUP BY
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
