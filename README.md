@@ -30,12 +30,27 @@ Sprendimas: pakeistas prievadas (port), problema išspręsta.
 
  DB sukurta ir paruošta darbui
 
-🔜 TOLIAU / PLANAS
-🔸 SQL praktika
+📝 Dienos ataskaita: [2025-05-30]
+✅ SQL praktika (Alex the Analyst – YouTube kursas)
+Apžiūrėta ir išmokta:
 
- Pradėti mokymus (Alex the Analyst)
+Tema	Laiko žyma (mm:ss)
+SELECT	11:19
+WHERE	21:47
+GROUP BY	33:54
+HAVING vs WHERE	44:18
+LIMIT ir Aliasing	47:41
+Viskas matosi faile numeris 2.SELECT_GROUP_BY.sql
 
- Praktikuotis SQL komandas: SELECT/WHERE/GROUP BY
+🔜 TOLIAU / PLANUOJAMA
+SQL praktika (likusios temos):
+
+Tema	Pradžios laikas
+JOINS	51:10
+UNIONS	1:08:04
+STRING FUNCTIONS	1:15:10
+CASE STATEMENTS	1:26:39
+SUBQUERIES	1:35:16
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
