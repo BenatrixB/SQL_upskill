@@ -42,15 +42,22 @@ HAVING vs WHERE	44:18
 LIMIT ir Aliasing	47:41
 Viskas matosi faile numeris 2.SELECT_GROUP_BY.sql
 
-🔜 TOLIAU / PLANUOJAMA
-SQL praktika (likusios temos):
-
-Tema	Pradžios laikas
+📝 Dienos ataskaita: [2025-06-03]
+✅ Atlikta – SQL praktika (Alex the Analyst)
+Tema	Laiko žyma
 JOINS	51:10
 UNIONS	1:08:04
 STRING FUNCTIONS	1:15:10
 CASE STATEMENTS	1:26:39
+
+🔜 TOLIAU – SQL praktika
+Tema	Pradžios laikas
 SUBQUERIES	1:35:16
+WINDOW FUNCTIONS	1:45:58
+CTEs	1:58:55
+TEMP TABLES	2:09:07
+STORED PROCEDURES	2:16:34
+TRIGGERS / EVENTS	2:28:51
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
