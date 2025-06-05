@@ -1,6 +1,11 @@
 # SQL_upskill
 Portfolio and learning/practising SQL.
-
+Prad=ioje buvo tiesiog SQL from beginner to advanced
+Tada SQL data cleaning project ir dar Exlplanatory data analysis project
+Naudotas Github kodo versijavimui ir saugojimui
+Naudotas MySQL localhost su workbench darbui su duomenimis
+Duomenys buvo arba sukurti arba importuoti .csv formato.
+Nautodtas CGPT progreso ataskaitų generavimui.
 Readme Faile bus aprašomas progresas ir taskai
 
 
@@ -43,7 +48,7 @@ LIMIT ir Aliasing	47:41
 Viskas matosi faile numeris 2.SELECT_GROUP_BY.sql
 
 📝 Dienos ataskaita: [2025-06-03]
-✅ Atlikta – SQL praktika (Alex the Analyst)
+✅ Atlikta – SQL praktika 
 Tema	Laiko žyma
 JOINS	51:10
 UNIONS	1:08:04
@@ -51,7 +56,7 @@ STRING FUNCTIONS	1:15:10
 CASE STATEMENTS	1:26:39
 
 📝 Dienos ataskaita: [2025-06-04]
-✅ Atlikta – SQL praktika (Alex the Analyst)
+✅ Atlikta – SQL praktika 
 Tema	Laiko žyma
 WINDOW FUNCTIONS	1:45:58
 CTEs	1:58:55
@@ -59,9 +64,14 @@ TEMP TABLES	2:09:07
 STORED PROCEDURES	2:16:34
 TRIGGERS / EVENTS	2:28:51
 
-🔜 TOLIAU – SQL praktika
-Tema	Pradžios laikas
+📝 Dienos ataskaita: [2025-06-05]
+✅ PROGRESAS – SQL praktika 
+Projektas	Laiko žyma
 DATA CLEANING PROJECT	2:42:46
+
+🔜 TOLIAU – SQL praktika
+Projektas	Pradžios laikas
+EXPLORATORY DATA ANALYSIS PROJECT	3:32:14
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
