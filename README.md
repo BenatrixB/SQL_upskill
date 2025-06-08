@@ -80,12 +80,31 @@ DATA CLEANING PROJECT	2:42:46
 | GitHub papildymas                   | ✅ Įkelta **7 datasetai** analizei                                  |
 
 
-🔜 TOLIAU – SQL gilinimas ir pasiruošimas portfolio projektams
-| Užduotis       | Šaltinis / Tikslas                                                     |
-| -------------- | ---------------------------------------------------------------------- |
-| `Refleksija`   | SQL kurso įsivertinimas                                                |
-| `SQL praktika` | [sql-practice.com](https://www.sql-practice.com/) – kasdienės užduotys |
+[2025-06-08]
 
+🔜 ATLIKTA
+
+SQL praktika:
+
+Tolimesnis planavimas SS Udemy SQL kursui.
+
+Aplinkos nustatymas PostgreSQL ir pgAdmin programoms.
+
+Pradėtas kursas (dar nebaigtas pirmas dienos modulis).
+
+SQL Portfolio projektas „Maven Toys Sales Analysis“:
+
+Spręstos problemos importuojant CSV failus į localhost MySQL duomenų bazę.
+
+Naudota YouTube ir GPT pagalba, nustatyti serverio ir kliento parametrai, kad leistų LOAD DATA LOCAL INFILE.
+
+Didelių, apie 800k eilučių turinčių CSV failų importavimas per CMD MySQL klientą pavyko sėkmingai.
+
+Sukurtos tuščios lentelės MySQL Workbench programoje.
+
+Importuotos lentelės: sales, calendar, products, inventory, stores.
+
+Tolimesni planai: duomenų modeliavimas (lentelių sujungimas per raktus), duomenų formatavimas (datos, kainos).
 
 
 Komentarai / Pastebėjimai
