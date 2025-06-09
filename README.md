@@ -106,6 +106,24 @@ Importuotos lentelės: sales, calendar, products, inventory, stores.
 
 Tolimesni planai: duomenų modeliavimas (lentelių sujungimas per raktus), duomenų formatavimas (datos, kainos).
 
+🗓️ 2025-06-09
+✅ Atlikta:
+🎓 Udemy SQL Course (UDC)
+
+Peržiūrėti ir atlikti 1, 2 ir 3 dienos video bei iššūkiai.
+
+Įdiegta PostgreSQL ir atliktas aplinkos paruošimas.
+
+Pastebėta, kad duomenų importavimas į PostgreSQL duomenų bazę vyksta sklandžiau nei per MySQL – tikėtina dėl to, kad PostgreSQL veikia kaip lokali bazė be papildomo tarpininko.
+
+🛠️ SQL praktika (per PostgreSQL):
+
+Išmoktos ir praktiškai pritaikytos šios komandos:
+SELECT, ORDER BY, DISTINCT, LIMIT, COUNT,
+WHERE, BETWEEN, IN, AND/OR, LIKE,
+GROUP BY, AVG, MIN, MAX, SUM, HAVING.
+
+🧠 Pastaba: HAVING naudojamas tam, kad filtruotume agreguotus rezultatus (grupes), o ne pavienius įrašus (kaip tai daro WHERE).
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
