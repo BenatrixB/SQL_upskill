@@ -124,6 +124,30 @@ WHERE, BETWEEN, IN, AND/OR, LIKE,
 GROUP BY, AVG, MIN, MAX, SUM, HAVING.
 
 🧠 Pastaba: HAVING naudojamas tam, kad filtruotume agreguotus rezultatus (grupes), o ne pavienius įrašus (kaip tai daro WHERE).
+🗓️ [2025-06-12]
+✅ Atlikta:
+🎓 Udemy SQL Course (UDC)
+
+Baigta Diena 5 (D-5)
+
+Išmoktos svarbios SQL funkcijos:
+
+CASE – sąlygų tikrinimas ir loginiai sprendimai
+
+CAST – duomenų tipo keitimas
+
+COALESCE – pirmos reikšmės pasirinkimas iš kelių galimų (naudinga dirbant su NULL)
+
+🧘‍♂️ Asmeninis įžvalgų momentas:
+
+Nuspręsta neskubėti su D-6 (JOINs tema), nes jai reikalingas didesnis susikaupimas ir aiški galva.
+
+Vakaras skirtas poilsiui ir kokybiškam pasiruošimui rytdienai.
+
+✅ „Geriau lėčiau, bet giliau ir tvirtai“ – tai tvari mokymosi strategija, ypač gilėjant temoms.
+
+🔜 Toliau:
+UDC Diena 6 (JOINs tema)
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
