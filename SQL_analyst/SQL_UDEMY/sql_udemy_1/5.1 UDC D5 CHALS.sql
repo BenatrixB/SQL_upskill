@@ -29,7 +29,22 @@ ORDER BY COUNT(*) DESC;
 -- Hight price (HPT) count = 29994
 -- Could make a CTE and filter only the HPT in the output
 
--- 2. 
+-- 2. Find out how many flights are scheduled for departure in the following seasons:
+	-- Winter (Dec, Jan, Feb)
+	-- Spring (Mar, Apr, May)
+	-- Summer (Jun, Jul, Aug)
+	-- Fall (Sep, Oct, Nov)
+
+SELECT COUNT(*) AS flights,
+CASE 
+	WHEN EXTRACT(month from scheduled_departure) IN(12, 1, 2) THEN 'Winter'
+	WHEN EXTRACT(month from scheduled_departure) <= 5 THEN 'Spring'
+	WHEN EXTRACT(month from scheduled_departure) <= 8 THEN 'Summer'
+	ELSE 'Fall'
+END as season
+FROM bookings.flights
+GROUP BY season
+ORDER BY flights;
 
 -- 3.
 -- CAST & COALESCE
