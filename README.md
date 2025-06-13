@@ -146,8 +146,96 @@ Vakaras skirtas poilsiui ir kokybiškam pasiruošimui rytdienai.
 
 ✅ „Geriau lėčiau, bet giliau ir tvirtai“ – tai tvari mokymosi strategija, ypač gilėjant temoms.
 
+🗓️ [2025-06-13]
+
+✅ Atlikta:
+UDC Day 6 – Joins, Joins, Joins!
+
+Gilinimasis į JOIN’ų veikimą praktikoje.
+
+Papildomas mokymasis su GPT: supratimas apie Entity Relationships (ER).
+
+Aptarta: One-to-One, One-to-Many, Many-to-One, ir Many-to-Many ryšiai.
+
+Ypač aktualu: suprasti Many-to-One santykį ir kaip jis pasireiškia praktiniuose duomenyse.
+
 🔜 Toliau:
-UDC Diena 6 (JOINs tema)
+Rekomenduojama:
+
+Paieškoti/pasuklausyti YouTube arba mini kursų apie Entity Relationship Modeling (ERD).
+
+Rekomenduojami terminai paieškai:
+
+"Entity Relationship Diagram Tutorial"
+
+"One to Many vs Many to One relationships explained"
+
+"How to create database schema diagrams"
+
+
+Trumpas cheat sheet iš GPT apie entity relationships
+🔹 1. One-to-One (1:1)
+Vienas į vieną
+
+✅ Apibrėžimas:
+Vienas įrašas A lentelėje atitinka tik vieną įrašą B lentelėje, ir atvirkščiai.
+
+📌 Pvz:
+users ir user_profiles
+(kiekvienas vartotojas turi vieną profilį, ir kiekvienas profilis priklauso tik vienam vartotojui)
+
+🔗 Implementavimas:
+Vienos lentelės id tampa kitos lentelės foreign key, kuris yra unikalus.
+
+🔹 2. One-to-Many (1:N)
+Vienas į daug
+
+✅ Apibrėžimas:
+Vienas įrašas A lentelėje gali turėti daug susijusių įrašų B lentelėje.
+
+📌 Pvz:
+flights → boarding_passes
+(vienas skrydis turi daug keleivių)
+
+products → sales
+(vienas produktas gali būti parduotas daug kartų)
+
+🔗 Implementavimas:
+B lentelėje yra foreign key, kuris nurodo A lentelės id.
+
+🔹 3. Many-to-One (N:1)
+Daug į vieną (tas pats kaip One-to-Many, bet iš kitos pusės)
+
+✅ Pvz:
+sales → stores
+(daug pardavimų įvyksta vienoje parduotuvėje)
+
+✅ Dažniausiai šitas ryšys yra tas, kurį matai JOIN'e, kai JOIN'ini „daug“ lentelę su „viena“ lentele pagal foreign key.
+
+🔹 4. Many-to-Many (M:N)
+Daug į daug
+
+✅ Apibrėžimas:
+Vienas A lentelės įrašas gali būti susijęs su daug B lentelės įrašų, ir atvirkščiai.
+
+📌 Pvz:
+students ir courses
+(vienas studentas lanko daug kursų, vieną kursą lanko daug studentų)
+
+🔗 Implementavimas:
+Sukuriama tarpinė lentelė (join table), pvz.: student_courses, su:
+
+student_id
+
+course_id
+
+💡 Papildomi patarimai:
+
+
+Ryšys	Foreign key yra	Tarpinė lentelė reikalinga
+1:1	Vienoje iš lentelių (UNIQUE)	❌ Ne
+1:N arba N:1	N pusėje	❌ Ne
+M:N	Tarpinėje lentelėje	✅ Taip
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
