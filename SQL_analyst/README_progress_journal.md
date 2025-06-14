@@ -229,6 +229,26 @@ Ryšys	Foreign key yra	Tarpinė lentelė reikalinga
 1:N arba N:1	N pusėje	❌ Ne
 M:N	Tarpinėje lentelėje	✅ Taip
 
+🗓️ [2025-08-14]
+
+✅ Atlikta:
+UDC – Day 7
+
+Temos: Advanced SQL – UNIONS & SUBQUERIES
+
+💡 Pastabos:
+Buvo labai įdomi diena su subqueries (vidinėmis užklausomis).
+
+Praktikavau:
+
+Subqueries WHERE sakiniuose
+
+Subqueries SELECT sakiniuose
+
+Correlated subqueries tiek WHERE, tiek SELECT vietose
+
+Pasijaučiau tikrai užtikrintai – „I was damn good“ 💪
+
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
 
