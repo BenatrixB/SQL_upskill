@@ -257,6 +257,20 @@ Correlated subqueries tiek WHERE, tiek SELECT vietose
 
 Pasijaučiau tikrai užtikrintai – „I was damn good“ 💪
 
+🗓️ [2025-06-15]
+
+✅ Atlikta:
+Pridėtas UDC D8 Course Project SQL failas, kuriame sudėtos visos kurso projekto užduotys (query tasks).
+Įgyvendintos pirmos 3 užduotys iš projekto.
+Daugiau nespėta dėl dienos planų.
+🔜 Toliau:
+Išvykstu kelioms dienoms – be asmeninio kompiuterio, todėl nebus naujų atnaujinimų šioje temoje.
+
+Tačiau planuoju įgyvendinti UDemy – Intro to BigQuery kursą (~3h turinio).
+
+Progreso atnaujinimus kelsiu per naršyklę/web.
+
+
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
 
