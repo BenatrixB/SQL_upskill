@@ -270,6 +270,12 @@ Tačiau planuoju įgyvendinti UDemy – Intro to BigQuery kursą (~3h turinio).
 
 Progreso atnaujinimus kelsiu per naršyklę/web.
 
+✅ 2025-06-23
+ATLIKTA:
+
+🎯 UDC D-8 Project Challenges – įvykdytos visos 14 lygio užklausų (queries).
+Prie6 tai dar pabaigtas ir Bigquery Intro kursas.
+
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
