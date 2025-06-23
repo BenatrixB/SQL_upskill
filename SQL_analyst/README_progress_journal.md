@@ -259,4 +259,9 @@ Daugiau nespėta dėl dienos planų.
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
 
+✅ [2025-06-23]
+ATLIKTA:
+
+🎯 UDC D-8 Project Challenges – įvykdytos visos 14 lygio užklausų (queries).
+
 Galima ateityje dokumentuoti „diegimo problemas ir sprendimus“ atskirai – naudinga portfolio ar net darbui.
