@@ -264,4 +264,19 @@ ATLIKTA:
 
 🎯 UDC D-8 Project Challenges – įvykdytos visos 14 lygio užklausų (queries).
 
+✅ 2025-06-24
+ATLIKTA:
+
+📘 UDC D-9 – SQL Managing Tables
+
+Temos: CREATE TABLE, ALTER TABLE, data checks ir constraints
+
+Įdomiausi atradimai:
+
+✅ Data checks – nauja, naudinga informacija apie duomenų validaciją
+
+🔑 Primary key su SERIAL – auto-increment logika, kurios anksčiau nežinojai
+
+
+
 Galima ateityje dokumentuoti „diegimo problemas ir sprendimus“ atskirai – naudinga portfolio ar net darbui.

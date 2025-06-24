@@ -276,6 +276,20 @@ ATLIKTA:
 🎯 UDC D-8 Project Challenges – įvykdytos visos 14 lygio užklausų (queries).
 Prie6 tai dar pabaigtas ir Bigquery Intro kursas.
 
+✅ 2025-06-24
+ATLIKTA:
+
+📘 UDC D-9 – SQL Managing Tables
+
+Temos: CREATE TABLE, ALTER TABLE, data checks ir constraints
+
+Įdomiausi atradimai:
+
+✅ Data checks – nauja, naudinga informacija apie duomenų validaciją
+
+🔑 Primary key su SERIAL – auto-increment logika, kurios anksčiau nežinojai
+
+
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
