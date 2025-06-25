@@ -277,6 +277,33 @@ Temos: CREATE TABLE, ALTER TABLE, data checks ir constraints
 
 🔑 Primary key su SERIAL – auto-increment logika, kurios anksčiau nežinojai
 
+✅ 2025-06-25
+ATLIKTA:
+
+📘 UDC D-10 – Advanced: Views and Data Manipulation
+
+SQL komandos:
+
+UPDATE, DELETE, CREATE TABLE AS, CREATE VIEW, CREATE MATERIALIZED VIEW, IMPORT/EXPORT
+
+View vs. Create Table As:
+
+✅ CREATE TABLE AS sukuria fizinę duomenų kopiją – saugo momentinį duomenų "snapshot", kuri nesikeičia, jei lentelės duomenys atsinaujina. Reikia saugojimo vietos.
+
+✅ VIEW nesaugo duomenų, tik užklausa (query) – duomenys visada atsinaujina realiu laiku iš originalių lentelių.
+
+✅ VIEW naudinga paprastam naudojimui, skaitymui ar analizės palengvinimui. Jei užklausa per lėta – galima sukurti fizinę lentelę.
+
+✅ MATERIALIZED VIEW – saugo duomenis kaip lentelę, reikia atnaujinti rankiniu būdu su REFRESH MATERIALIZED VIEW, arba naudojant triggerį.
+
+| Savybė                        | `VIEW`                             | `MATERIALIZED VIEW`                                  | `CREATE TABLE AS`                |
+| ----------------------------- | ---------------------------------- | ---------------------------------------------------- | -------------------------------- |
+| 📦 Duomenų saugojimas         | ❌ Nesaugo                          | ✅ Saugo (reikia atnaujinti)                          | ✅ Saugo                          |
+| 🔄 Duomenų atnaujinimas       | ✔️ Dinamiškas, visada nauja info   | ❌ Reikia `REFRESH` rankiniu ar su triggeriu          | ❌ Duomenys "užšaldyti"           |
+| ⚡ Greitis (skaitymui)         | Lėtesnis, nes skaičiuoja real-time | Greitesnis nei `VIEW`                                | Greitesnis, nes jau yra duomenys |
+| 🧠 Naudojimo paskirtis        | Dažniausiai nuorodoms ar analizėms | Kai norima turėti greitą prieigą prie pastovios info | Kai reikia snapshot ar backup    |
+| 🧰 Kūrimo sudėtingumas        | Paprasta                           | Vidutinė (gali reikėti `REFRESH`)                    | Paprasta                         |
+| 🔁 Priklausomybė nuo lentelių | Tiesioginė                         | Tiesioginė, bet reikia atnaujinti                    | Nepriklauso (snapshot momentu)   |
 
 
 Galima ateityje dokumentuoti „diegimo problemas ir sprendimus“ atskirai – naudinga portfolio ar net darbui.
