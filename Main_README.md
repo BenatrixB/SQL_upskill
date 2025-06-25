@@ -289,7 +289,24 @@ Temos: CREATE TABLE, ALTER TABLE, data checks ir constraints
 
 🔑 Primary key su SERIAL – auto-increment logika, kurios anksčiau nežinojai
 
+✅ 2025-06-25
+ATLIKTA:
 
+📘 UDC D-10 – Advanced: Views and Data Manipulation
+
+SQL komandos:
+
+UPDATE, DELETE, CREATE TABLE AS, CREATE VIEW, CREATE MATERIALIZED VIEW, IMPORT/EXPORT
+
+View vs. Create Table As:
+
+✅ CREATE TABLE AS sukuria fizinę duomenų kopiją – saugo momentinį duomenų "snapshot", kuri nesikeičia, jei lentelės duomenys atsinaujina. Reikia saugojimo vietos.
+
+✅ VIEW nesaugo duomenų, tik užklausa (query) – duomenys visada atsinaujina realiu laiku iš originalių lentelių.
+
+✅ VIEW naudinga paprastam naudojimui, skaitymui ar analizės palengvinimui. Jei užklausa per lėta – galima sukurti fizinę lentelę.
+
+✅ MATERIALIZED VIEW – saugo duomenis kaip lentelę, reikia atnaujinti rankiniu būdu su REFRESH MATERIALIZED VIEW, arba naudojant triggerį.
 
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
