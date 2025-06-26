@@ -308,6 +308,36 @@ View vs. Create Table As:
 
 ✅ MATERIALIZED VIEW – saugo duomenis kaip lentelę, reikia atnaujinti rankiniu būdu su REFRESH MATERIALIZED VIEW, arba naudojant triggerį.
 
+✅ 2025/06/26
+ATLIKTA
+UDC D-11 – WINDOW FUNCTIONS
+
+Išmokta SQL komandos ir funkcijos:
+
+OVER()
+
+PARTITION BY()
+
+ORDER BY su OVER()
+
+RANK()
+
+FIRST_VALUE()
+
+LEAD(), LAG()
+
+Pastabos:
+
+Window functions elgiasi kaip correlated subqueries, bet yra žymiai efektyvesnės išteklių požiūriu.
+
+Todėl dažniausiai verta rinktis window funkcijas, o ne correlated subqueries, kai tik įmanoma.
+
+Su OVER(PARTITION BY ...) galima naudoti tokias agregacijas kaip SUM(), COUNT(), RANK(), FIRST_VALUE(), LEAD(), LAG().
+
+Galima particionuoti pagal kelis stulpelius – tai leidžia dar tiksliau grupuoti ir analizuoti duomenis eilutės kontekste.
+
+
+
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
 

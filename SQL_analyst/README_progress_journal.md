@@ -305,5 +305,34 @@ View vs. Create Table As:
 | 🧰 Kūrimo sudėtingumas        | Paprasta                           | Vidutinė (gali reikėti `REFRESH`)                    | Paprasta                         |
 | 🔁 Priklausomybė nuo lentelių | Tiesioginė                         | Tiesioginė, bet reikia atnaujinti                    | Nepriklauso (snapshot momentu)   |
 
+✅ 2025/06/26
+ATLIKTA
+UDC D-11 – WINDOW FUNCTIONS
+
+Išmokta SQL komandos ir funkcijos:
+
+OVER()
+
+PARTITION BY()
+
+ORDER BY su OVER()
+
+RANK()
+
+FIRST_VALUE()
+
+LEAD(), LAG()
+
+Pastabos:
+
+Window functions elgiasi kaip correlated subqueries, bet yra žymiai efektyvesnės išteklių požiūriu.
+
+Todėl dažniausiai verta rinktis window funkcijas, o ne correlated subqueries, kai tik įmanoma.
+
+Su OVER(PARTITION BY ...) galima naudoti tokias agregacijas kaip SUM(), COUNT(), RANK(), FIRST_VALUE(), LEAD(), LAG().
+
+Galima particionuoti pagal kelis stulpelius – tai leidžia dar tiksliau grupuoti ir analizuoti duomenis eilutės kontekste.
+
+
 
 Galima ateityje dokumentuoti „diegimo problemas ir sprendimus“ atskirai – naudinga portfolio ar net darbui.
