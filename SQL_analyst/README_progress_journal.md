@@ -333,6 +333,19 @@ Su OVER(PARTITION BY ...) galima naudoti tokias agregacijas kaip SUM(), COUNT(),
 
 Galima particionuoti pagal kelis stulpelius – tai leidžia dar tiksliau grupuoti ir analizuoti duomenis eilutės kontekste.
 
+2025/06/27
+✅ ATLIKTA
+UDC D-12
+Temos:
+
+GROUPING SETS, ROLLUP, CUBE – agregavimas keliuose lygmenyse vienu vaizdu.
+
+SELF JOIN – kai jungi ta pačią lentelę su savimi (naudinga, pvz., hierarchijoms ar palyginimams).
+
+NATURAL JOIN – automatiškai jungia lenteles pagal bendrus stulpelius (atsargiai naudoti).
+
+CROSS JOIN – kartesinis (visų su visais) produktas, jei nenaudojamas ON (retai praverčia, bet naudinga žinoti).
+
 
 
 Galima ateityje dokumentuoti „diegimo problemas ir sprendimus“ atskirai – naudinga portfolio ar net darbui.
