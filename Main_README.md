@@ -349,6 +349,28 @@ NATURAL JOIN – automatiškai jungia lenteles pagal bendrus stulpelius (atsargi
 
 CROSS JOIN – kartesinis (visų su visais) produktas, jei nenaudojamas ON (retai praverčia, bet naudinga žinoti).
 
+
+📅 2025/06/28
+✅ ATLIKTA
+🧠 UDC D-14
+SQL Temos:
+
+User-Defined Functions (UDF)
+
+Transactions
+
+Stored Procedures
+
+| Feature                    | **Function**                        | **Stored Procedure**                      |
+| -------------------------- | ----------------------------------- | ----------------------------------------- |
+| 🔁 **Returns Value**       | ✅ Yes (must return)                 | ❌ Optional (can return, but not required) |
+| 📊 **Used in SELECT**      | ✅ Yes                               | ❌ No                                      |
+| 🛠 **Used For**            | Calculations, value-returning logic | Data changes, multiple operations         |
+| 💬 **Call Syntax**         | `SELECT my_func(args);`             | `CALL my_proc(args);`                     |
+| ⚙️ **Can Modify Data**     | ⚠️ Limited (possible, not ideal)    | ✅ Yes                                     |
+| 💣 **Transaction Control** | ❌ No `COMMIT`/`ROLLBACK`            | ✅ Yes                                     |
+| 🧠 **Logic Complexity**    | Simple/medium logic                 | Complex workflows, branching, loops       |
+
 Komentarai / Pastebėjimai
 Diegimo problemos parodė, kaip svarbu nepasitikėti vien „default“ nuostatomis (localhost portas gali būti užimtas).
 
