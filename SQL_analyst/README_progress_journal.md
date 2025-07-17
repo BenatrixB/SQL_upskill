@@ -367,6 +367,35 @@ Stored Procedures
 | 💣 **Transaction Control** | ❌ No `COMMIT`/`ROLLBACK`            | ✅ Yes                                     |
 | 🧠 **Logic Complexity**    | Simple/medium logic                 | Complex workflows, branching, loops       |
 
+Dienos ataskaita 17/07/2025
 
+✅ USER MANAGEMENT (VARTOTOJŲ VALDYMAS)
+CREATE USER user_name WITH PASSWORD 'secret';
+Sukuria vartotoją, bet neleidžia prisijungti, nebent suteikta LOGIN.
+
+CREATE ROLE role_name WITH LOGIN PASSWORD 'secret';
+Sukuria role'ę, kuri gali prisijungti kaip vartotojas (rekomenduojama vietoj CREATE USER).
+
+GRANT privilege ON object TO user/role;
+Pvz.: GRANT SELECT ON table_name TO mia;
+
+REVOKE privilege ON object FROM user/role;
+Pvz.: REVOKE INSERT ON table_name FROM mia;
+
+✅ INDEXAI (INDEXES)
+Kam skirti: Pagreitina SELECT, WHERE, ORDER BY, JOIN.
+⚠️ Lėtina INSERT, UPDATE, DELETE + užima daugiau vietos.
+
+📚 Indexų tipai:
+Tipas	Kada naudoti	Pastabos
+B-tree	Unikalūs ID, pirminiai raktai, didelė įvairovė	Dažniausiai numatytasis indeksas
+Bitmap	Dažnai pasikartojančios reikšmės (pvz.: „yes“, „no“, „gender“)	Naudojamas daugiau analitiniuose scenarijuose, mažai DML operacijų
+
+✅ INDEXO KŪRIMAS
+sql
+CREATE INDEX idx_column_name ON table_name(column_name);
+Pavyzdys:
+sql
+CREATE INDEX idx_last_name ON employees(last_name);
 
 Galima ateityje dokumentuoti „diegimo problemas ir sprendimus“ atskirai – naudinga portfolio ar net darbui.
